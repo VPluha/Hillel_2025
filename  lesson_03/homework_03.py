@@ -35,14 +35,14 @@ print(black_azov)
 Знайдіть кількість товарів, що розміщені на кожному складі.
 """
 total = 375291
-First_Second_Storage = 250449
-Second_Third_Storage = 222950
-First_Storage = total - Second_Third_Storage
-Third_Storage = total - First_Second_Storage
-Second_Storage = total - (First_Storage + Third_Storage)
-print(First_Storage)
-print(Second_Storage)
-print(Third_Storage)
+first_second_storage = 250449
+second_third_storage = 222950
+first_storage = total - second_third_storage
+third_storage = total - first_second_storage
+second_storage = total - (first_storage + third_storage)
+print(first_storage)
+print(second_storage)
+print(third_storage)
 
 # task 06
 """
@@ -53,8 +53,8 @@ print(Third_Storage)
 """
 credit_time = 18
 payment = 1179
-PC_Cost = payment * credit_time
-print(PC_Cost)
+pc_cost = payment * credit_time
+print(pc_cost)
 
 # task 07
 """
@@ -90,10 +90,10 @@ print(f)
 """
 big_pizza_cost = 274 * 4
 small_pizza_cost = 218 * 2
-Juice_cost = 35 * 4
-Cake_cost = 350 * 1
+juice_cost = 35 * 4
+cake_cost = 350 * 1
 water_cost = 21 * 3
-print(big_pizza_cost + small_pizza_cost + Juice_cost + Cake_cost + water_cost)
+print(big_pizza_cost + small_pizza_cost + juice_cost + cake_cost + water_cost)
 # task 09
 """
 Ігор займається фотографією. Він вирішив зібрати всі свої 232
