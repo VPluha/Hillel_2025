@@ -34,12 +34,12 @@ print(black_azov)
 250 449 товарів. На другому та третьому – 222 950 товарів.
 Знайдіть кількість товарів, що розміщені на кожному складі.
 """
-Total = 375291
+total = 375291
 First_Second_Storage = 250449
 Second_Third_Storage = 222950
-First_Storage = Total - Second_Third_Storage
-Third_Storage = Total - First_Second_Storage
-Second_Storage = Total - (First_Storage + Third_Storage)
+First_Storage = total - Second_Third_Storage
+Third_Storage = total - First_Second_Storage
+Second_Storage = total - (First_Storage + Third_Storage)
 print(First_Storage)
 print(Second_Storage)
 print(Third_Storage)
@@ -51,9 +51,9 @@ print(Third_Storage)
 вати необхідно буде півтора року по 1179 грн/місяць. Обчисліть
 вартість комп’ютера.
 """
-Credit_Time = 18
-Payment = 1179
-PC_Cost = 1179 * 18
+credit_time = 18
+payment = 1179
+PC_Cost = payment * credit_time
 print(PC_Cost)
 
 # task 07
