@@ -56,9 +56,9 @@ print(average([9, 6, 8, 4, 5]))
 """  Написати функцію, яка приймає рядок та повертає його у зворотному порядку.
 """
 
-def list_of_numbers(s):
-    return ', '.join(map(str, sorted(s, reverse=True)))
-print(list_of_numbers(range(10)))
+def revers_text(text):
+    return text.lower()[::-1]
+print(revers_text("Madam, Racecar, Level, Radar, Rotor, Civic"))
 
 # task 5
 """  Написати функцію, яка приймає список слів та повертає найдовше слово у списку.
