@@ -47,18 +47,18 @@ print(sum_two_numbers(15, 12))
 # task 3
 """  Написати функцію, яка розрахує середнє арифметичне списку чисел.
 """
-number_list = [9, 6, 8, 4, 5]
-def average(number_str):
-    return sum(number_str) / len(number_str)
-print(average(number_list))
+
+def average(number_list):
+    return sum(number_list) / len(number_list)
+print(average([9, 6, 8, 4, 5]))
 
 # task 4
 """  Написати функцію, яка приймає рядок та повертає його у зворотному порядку.
 """
 
-def list_of_numbers(list):
-    return sorted(list, reverse=True)
-print(list_of_numbers(range(10)))
+def revers_text(text):
+    return text.lower()[::-1]
+print(revers_text("Madam, Racecar, Level, Radar, Rotor, Civic"))
 
 # task 5
 """  Написати функцію, яка приймає список слів та повертає найдовше слово у списку.
