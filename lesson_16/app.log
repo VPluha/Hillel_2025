@@ -1,0 +1,6 @@
+2025-09-01 16:12:51 [INFO] Calling add with args=(5, 3), kwargs={}
+2025-09-01 16:12:51 [INFO] add returned 8
+2025-09-01 16:12:51 [ERROR] Custom error in divide: division by zero
+2025-09-01 16:15:17 [INFO] Calling add with args=(5, 3), kwargs={}
+2025-09-01 16:15:17 [INFO] add returned 8
+2025-09-01 16:15:17 [ERROR] Custom error in divide: division by zero
