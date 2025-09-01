@@ -1,5 +1,4 @@
 # ITERATORS
-
 # Iterator for reverse output of list elements
 class ReverseListIterator:
     def __init__(self, lst):

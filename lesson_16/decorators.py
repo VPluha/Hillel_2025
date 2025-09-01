@@ -3,11 +3,11 @@ from functools import wraps
 from generators import even_numbers, fibonacci_up_to
 from iterators import ReverseListIterator, EvenIterator
 
-# Налаштування логера
+# Logger settings
 logging.basicConfig(
-    filename="app.log",       # файл для логів
-    level=logging.INFO,       # рівень логування
-    format="%(asctime)s [%(levelname)s] %(message)s",  # формат логів
+    filename="app.log",       # log file
+    level=logging.INFO,       # logging level
+    format="%(asctime)s [%(levelname)s] %(message)s",  # log format
     datefmt="%Y-%m-%d %H:%M:%S"
 )
 

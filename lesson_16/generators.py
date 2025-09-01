@@ -1,5 +1,4 @@
 # GENERATORS
-
 # Even number generator from 0 to N
 def even_numbers(n):
     for i in range(0, n + 1, 2):
